@@ -1,15 +1,25 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+permalink: /teaching/
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Courses
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Introduction to Computer Networks
 
-{% include courses.liquid %}
+An introductory course covering the fundamental principles of computer networking. Topics include the OSI and TCP/IP models, network protocols (Ethernet, IP, TCP, UDP, DNS, HTTP), routing and switching, congestion control, and an overview of wireless and mobile networks. Students gain both theoretical understanding and hands-on experience with network tools and packet analysis.
+
+---
+
+### Introduction to Cyber Security
+
+A broad introduction to the field of cybersecurity for students with a computer science background. The course covers threat landscapes, attack taxonomies, cryptographic foundations, authentication mechanisms, network security basics, and defensive strategies. Special emphasis is placed on real-world case studies and current threat intelligence.
+
+---
+
+### Network Security
+
+An advanced course exploring the security challenges of modern networks. Topics include firewalls, intrusion detection and prevention systems (IDS/IPS), VPNs, TLS/SSL, denial-of-service attacks and defenses, wireless security protocols, and emerging threats in 5G and IoT environments. Students implement and analyze security mechanisms through hands-on lab assignments.
